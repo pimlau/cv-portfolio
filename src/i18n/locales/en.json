@@ -65,7 +65,7 @@
         "title": "A data visualization dashboard for a private company",
         "role": "Senior front end developer",
         "year": "Q2 2024 - Q4 2024",
-        "summary": "A B2B user-facing service for a private company to visualize data from their backend systems in a readable and efficient way. I took part in improving their design system process and component library implementation, and ",
+        "summary": "A B2B user-facing service for a private company to visualize data from their backend systems in a readable and efficient way. Besides my main project where I constructed a data visualization dashboard, I took part in improving their design system process and component library implementation.",
         "tags": ["React.js", "Design systems", "Typescript", "SCSS", "Next.js", "SSR"],
         "image": "/img/website-3.png",    
         "disableLightbox": true
