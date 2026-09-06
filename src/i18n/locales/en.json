@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "title": "Laura Pimiä — design engineer",
+    "description": "Portfolio of Laura Pimiä, a design engineer in Helsinki working across front end, UX and print."
+  },
+  "nav": {
+    "name": "Laura Pimiä",
+    "role": "design engineer — helsinki",
+    "work": "Work",
+    "graphics": "Graphics",
+    "hobby": "Hobby",
+    "cv": "CV",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "ticker": {
+    "items": [
+      "senior consultant at siili solutions",
+      "react · typescript · scss",
+      "desucon 2026 label out now",
+      "open to graphic commissions"
+    ]
+  },
+  "about": {
+    "eyebrow": "01 — about",
+    "title": "Laura Pimiä",
+    "meta": "front end · ux · graphic design — 2014 / 2026",
+    "photoCaption": "A photo of me goes here.",
+    "lead": "I'm a design engineer based in Helsinki. I started my career in 2014 as a web developer working with PHP and Javascript, Angular v1 and jQuery, ended up settling with React and any side dish brought to the table.",
+    "paragraph1": "I sit between design and front end. In my work that means I am the connecting cable between design and development, and I am the person who picks up the slack when the design team needs to focus on more burning things. I'm a big design systems advocate for this reason.",
+    "paragraph2": "Outside work I am a freelance graphic designer with experience in print and apparel design. I also play Dungeons and Dragons actively and travel to Japan annually. And I won't shut up about it.",
+    "ctaWork": "See the work",
+    "ctaContact": "Say hello"
+  },
+  "work": {
+    "eyebrow": "02 — professional",
+    "title": "Client work",
+    "intro": "I work as a senior consultant in the Design Engineers tribe at Siili Solutions. Clients have been both public sector and commercial, and I pride myself upon my ability to learn and adapt to new business domains quickly. Below you can find my most recent client projects from the last 5 years. If you want to hear more about my older work, just hit me up!",
+    "skills": ["React.js", "TypeScript", "Javascript", "Design Systems", "SCSS", "REST APIs", "GraphQL", "Cypress", "Tanstack query", "Nx", "Agentic development"],
+    "timeline": {
+      "dateRange": "2021 / now",
+      "roleTitle": "Senior consultant, Siili Solutions",
+      "meta": "Full-time · Helsinki, Uusimaa · Design Engineers tribe",
+      "publicLabel": "public",
+      "publicText": "Public sector front ends: accessible React applications built to survive long service lifecycles and multiple content teams.",
+      "commercialLabel": "commercial",
+      "commercialText": "Commercial products: design systems, component libraries, and the REST and GraphQL integration layers behind them."
+    },
+    "projects": [
+      {
+        "index": "01",
+        "title": "A public maritime services portal",
+        "role": "Senior front end developer",
+        "year": "Q3 2025 - Q2 2026",
+        "summary": "A service created for a Finnish maritime authority to comply with the EU regulations of harmonizing port operations across member states. I joined the project around 8 months before release to help with the ongoing work of finishing up the user-facing interface and its missing features. I took part in the usability of the forms, navigation and implementing new features and views while doing design work according to the already existing design language. I received significant praise from my work from the team and the client regarding the usability of the long format forms and their fluidity.",
+        "tags": ["React.js", "TypeScript", "SCSS", "RJSF", "Tanstack query", "Nx", "Agentic development"],
+        "image": "/img/website-1.png",
+        "disableLightbox": true
+      },
+      {
+        "index": "02",
+        "title": "A realtor's portal",
+        "role": "Senior front end developer",
+        "year": "Q1 2025 - Q2 2025",
+        "summary": "I took part in the final stages of developing a realtor's portal for managing real estate listings. My role was to implement media handling features that would be both intuitive to use and performance efficient. I worked tightly alongside both the design operations and the API crew to produce the outcome of a easy to use and performant media handling system.",
+        "tags": ["Design systems", "TypeScript", "SCSS", "React.js", "REST APIs", "Agentic development"],
+        "image": "/img/website-2.png",
+        "disableLightbox": true
+      },
+      {
+        "index": "03",
+        "title": "A data visualization dashboard for a private company",
+        "role": "Senior front end developer",
+        "year": "Q2 2024 - Q4 2024",
+        "summary": "A B2B user-facing service for a private company to visualize data from their backend systems in a readable and efficient way. I took part in improving their design system process and component library implementation, and ",
+        "tags": ["React.js", "Design systems", "Typescript", "SCSS", "Next.js", "SSR"],
+        "image": "/img/website-3.png",    
+        "disableLightbox": true
+      },
+      {
+        "index": "04",
+        "title": "A registry system for a public service",
+        "role": "Senior front end developer",
+        "year": "Q1 2023 - Q2 2024",
+        "summary": "Once again I joined the tail end of a project, ended up staying way longer than the initial few months of seasonal assistance. I took it upon myself to write a massive load of tests and nearly rewrote the forms to be more reliable with their behavior. The product turned out to be a great success after release with barely any bugs present. Introduced query caching for the frontend.",
+        "tags": ["React.js", "TypeScript", "SCSS", "Tanstack query", "Cypress"],
+        "image": "/img/website-4.png",
+        "disableLightbox": true
+      },
+      {
+        "index": "05",
+        "title": "E-commerce for a Finnish retailer",
+        "role": "Senior front end developer",
+        "year": "Q4 2022 - Q1 2023",
+        "summary": "A quick stint slamming some tickets for a storefront website. Focusing on constructing the main webpage with all of its user interaction design and development. Closely collaborating with the design department to plan and implement reusable components.",
+        "tags": ["React.js", "Typescript", "SCSS"],
+        "image": "/img/website-5.png",
+        "disableLightbox": true
+      },
+      {
+        "index": "06",
+        "title": "A catalog system for Finnish traveling agencies",
+        "role": "Senior front end developer",
+        "year": "Q4 2021 - Q4 2022",
+        "summary": "A complex cataloguing system created for a corporation working under the Ministry of Employment and the Economy. Implemented a design system for easier component reuse and development after the project struggled with remnants of an old bootstrap library and forked components.",
+        "tags": ["Design system", "React.js", "GraphQL", "TypeScript"],
+        "image": "/img/website-6.png",
+        "disableLightbox": true
+      }
+    ]
+  },
+  "graphics": {
+    "eyebrow": "03 — graphic design",
+    "title": "Design work",
+    "intro": "I'm the principal designer for a Finnish convention centered around Japanese pop culture hosting 3000 visitors biannually in both June and January. My work spans across 16 years at this point, but here are some of the more recent works. If you're wondering about the seals... that's what we affectionally call the volunteers and use as our recognizable iconography as the marine theme also fits with our venue being located right by the Vesijärvi lake. Seals are so dear to us we have also arranged a sizable donation to the Saimaa ringed seal conservation work in 2025. Out of principle, this section I keep completely free of generative AI.",
+    "projects": [
+      {
+        "index": "01",
+        "title": "'Kaminari' - Desucon 2026 beer can label",
+        "role": "Illustration",
+        "year": "2026",
+        "summary": "Label artwork for the convention's own beer made in collaboration with Ant Brewery with a spicy-lime flavor profile, printed wrap-around.",
+        "image": "/img/desucon-2026-etiketti.png"
+      },
+      {
+        "index": "02",
+        "title": "Melon Soda - Desucon 2026 T-shirt",
+        "role": "Apparel graphic",
+        "year": "2026",
+        "summary": "Large front print for the convention's own t-shirt sold to visitors and given as a gift to volunteer workers.",
+        "image":"/img/desucon-2026-paita.png"
+      },
+      {
+        "index": "03",
+        "title": "'Kanpai!' - Desucon Frostbite 2026 beer can label",
+        "role": "Illustration",
+        "year": "2026",
+        "summary": "Winter counterpart to the Desucon can: same format, colder palette. Collaboration with Ant Brewery. Based on the theme 'Kanpai!', i.e. cheers! enthusiastically shouted at Japanese bars.",
+        "image": "/img/frostbite-2026-etiketti.jpg"
+      },
+      {
+        "index": "04",
+        "title": "Kuuttimopo - Desucon Frostbite 2026 T-shirt graphic",
+        "role": "Apparel graphic",
+        "year": "2026",
+        "summary": "Large front print for the convention's own t-shirt sold to visitors and given as a gift to volunteer workers. Received very enthusiastic praise for its references to the cult classics 'Initial D' and Kurkkumopo. Also used as a tote bag print.",
+        "image": "/img/frostbite-2026-paita.jpg"
+      },
+      {
+        "index": "05",
+        "title": "Embroidered patches",
+        "role": "Embroidery design",
+        "year": "2025",
+        "summary": "Design for the embroidered patch sold to visitors as official Desucon merchandise. Based on the theme 'Natsu Matsuri', i.e. Japanese summer festivals and a pastiche to Hokusai's 'The Great Wave of the Lahti bay'.",
+        "image": "img/kangasmerkit-transparent.png"
+      },
+      {
+        "index": "06",
+        "title": "Vinyl sticker sheet",
+        "role": "Illustration · layout",
+        "year": "2025",
+        "summary": "A sheet of vinyl stickers compiled of the t-shirt images I have made for the convention from the previous three years.",
+        "image": "/img/sticker-sheet.png"
+      }
+    ]
+  },
+  "hobby": {
+    "eyebrow": "04 — hobby projects",
+    "title": "Built for no client",
+    "intro": "I'm going to keep it a buck fifty - after I close my laptop for the day, my free time goes mostly into creative projects and meeting dear friends. But I do dabble into some side projects here and there. Here are my current toy boxes.",
+    "projects": [
+      {
+        "index": "01",
+        "title": "DMScreen",
+        "role": "Solo designer and developer",
+        "year": "2026",
+        "summary": "I'm currently working on a content managing tool for game masters to help organize and manage their Dungeons and Dragons sessions. Past the concept planning stage and currently building its design on Figma. Interviewing experienced game masters to search for the most essential features they would need for a fluid game session. Key feature being managing the player-facing screen and its content. Taking this as a chance to learn more about automating design systems and component development via automatic agentic tools. Planned release date is Q4 2026 with biweekly checkups with a friend who kindly took the role of a client.",
+        "tags": ["Front end development", "UX Design", "React.js", "Figma", "Figma MCP"],
+        "image": "/img/dmscreen-figma.PNG"
+      },
+      {
+        "index": "02",
+        "title": "Satchel UI",
+        "role": "Solo designer and developer",
+        "year": "2026",
+        "summary": "Satchel UI is the component kit I'm using to develop my DMScreen project, but also the follow-up projects to it. The plan is to create a monorepo ecosystem powered by Nx to host also a player-centered campaign management tool.",
+        "tags": ["Front end development", "UX Design", "React.js", "Figma", "Figma MCP"]
+      }
+    ]
+  },
+  "cv": {
+    "eyebrow": "05 — curriculum vitae",
+    "title": "Where I've been",
+    "entries": [
+      {
+        "range": "Mar 2021 — present",
+        "title": "Senior Consultant — Siili Solutions",
+        "location": "Full-time · Helsinki, Uusimaa, Finland",
+        "description": "Part of the Design Engineers tribe. Acting as a senior level developer in projects requiring advanced knowledge of front end ecosystems and user experience design. Projects have included both public sector and commercial clients. React.js, Typescript, SCSS and both REST and GraphQL based interfaces. Design System work. Various component libraries such as Bootstrap, MaterialUI, Ant Design and more. Plenty of form developing war stories. Picking up various genAI tools to better my work as we speak.",
+        "skills": ["Front end development", "Web design", "React.js", "TypeScript", "Javascript", "SCSS", "REST APIs", "GraphQL", "Design Systems", "Component libraries", "GenAI tools"]
+      },
+      {
+        "range": "Sep 2016 — Mar 2021",
+        "title": "Consultant — Netlight",
+        "location": "Helsinki, Uusimaa, Finland",
+        "description": "I specialized in Front end/web development and user experience design, using pure javascript, typescript, React.js and other various front-end development technologies to create and improve user interfaces. Projects involved embedded systems, MaaS interfaces, user-targeted tools for financial industries and e-commerce.",
+        "skills": ["Front end development", "Web design", "React.js", "TypeScript", "Javascript", "SCSS", "REST APIs", "GraphQL", "Design Systems", "Component libraries"]
+      },
+      {
+        "range": "Oct 2015 — Jun 2016",
+        "title": "Front end developer — Great Apes",
+        "location": "Helsinki",
+        "description": "Various Front End oriented projects for the web. Websites, applications, even games. Javascript, SASS, CSS, Canvas, PHP, Wordpress.",
+        "skills": ["Web design", "Front end design", "Javascript", "SASS", "CSS", "Canvas", "PHP", "Wordpress"]
+      },
+      {
+        "range": "Mar 2015 — Aug 2015",
+        "title": "IT Assistant — Verohallinto, Finnish Tax Administration",
+        "location": "Helsinki",
+        "description": "A temporary position for the IT side of the tax inspection in a project while finishing my studies. Using data extraction tools, handful script creation for the good of the nation and taking part in the planning strategies and helping out with anything that requires IT-related knowledge.",
+        "skills": ["HTML", "Javascript", "Excel sheets", "Data ingestion and collection"]
+      },
+      {
+        "range": "May 2014 — Aug 2014",
+        "title": "Inspector general — Verohallinto",
+        "location": "Helsinki",
+        "description": "A summer internship job at Verohallinto. Testing, documenting, creating education material and using software meant for the tax administration employees. Database organizing. My position required a good knowledge of the architecture and behavior of web sites.",
+        "skills": ["HTML", "Javascript", "Excel sheets", "Data ingestion and collection"]
+      },
+      {
+        "range": "Jan 2014 — Apr 2014",
+        "title": "Web Developer — Givget Oy",
+        "location": "Helsinki",
+        "description": "Creating campaign sites with participating forms and other features using HTML, Javascript, CSS and PHP. Development of CMS services and a social media site and other IT related tasks of the company.",
+        "skills": ["Web design", "Front end design", "HTML", "Javascript", "CSS", "PHP"]
+      }
+    ],
+    "sidebar": {
+      "label": "what I am interested in",
+      "groups": [
+        {
+          "title": "Front end",
+          "text": "I'm very curious about almost anything front end related, and I'm always looking for new challenges and opportunities to learn. React.js is my bread and butter and I'm in love with the framework, but I wouldn't say no to learning of alternatives."
+        },
+        {
+          "title": "Systems",
+          "text": "Currently wracking my brain to figure out how to integrate AI into design system work. The field is moving very fast and I'm eager to see where it ends up after the dust settles. I am not the person who will add AI just because it's the buzzword right now, I am more interested in its actual strengths to help us ship better products."
+        },
+        {
+          "title": "Design",
+          "text": "I consider myself a creative person first and a programmer second. I'm always looking for new ways to express myself and I'm eager to see where my ideas take me, and that includes service design and planning how the user interfaces with the design."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "eyebrow": "06 — contact",
+    "heading": "Where to find me",
+    "text": "Hit me up via an e-mail or a LinkedIn message even if you just want to chat about work, design, art, Dungeons and Dragons or traveling to Japan. I simply like meeting new people.",
+    "email": "laura.pimia@gmail.com",
+    "rows": {
+      "emailLabel": "Email",
+      "linkedinLabel": "LinkedIn",
+      "linkedin": "laura-pimiä",
+      "linkedinUrl": "https://www.linkedin.com/in/laura-pimiä-15a6b299"
+    }
+  }
+}

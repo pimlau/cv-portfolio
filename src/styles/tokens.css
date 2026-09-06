@@ -1,0 +1,176 @@
+/* Design tokens — Shōwa Portfolio Design System.
+   Fonts are Google Fonts CDN substitutions; see the design system readme.
+   This is based on a small vibe coded design system that I made to follow the
+   Japanese showa era aesthetic using Claude Design. */
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=DotGothic16&family=DM+Mono:wght@400;500&display=swap");
+
+:root {
+  --font-display: "Shippori Mincho", "Hiragino Mincho ProN", serif;
+  --font-sans: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", system-ui, sans-serif;
+  --font-dot: "DotGothic16", "Zen Kaku Gothic New", monospace;
+  --font-mono: "DM Mono", "SFMono-Regular", ui-monospace, monospace;
+
+  /* --- Paper (warm Shōwa print stock) --- */
+  --paper-0: #FBF7EC;
+  --paper-1: #F4EEDF;
+  --paper-2: #EAE1CD;
+  --paper-3: #DCD1B8;
+
+  /* --- Sumi ink --- */
+  --ink-0: #14120E;
+  --ink-1: #241F18;
+  --ink-2: #4A4235;
+  --ink-3: #7C7261;
+
+  /* --- Brand hues --- */
+  --kon-1: #16233F;
+  --kon-2: #22375F;
+  --kon-3: #3D5A8C;
+  --shu-1: #A83420;
+  --shu-2: #C8452C;
+  --shu-3: #E4715A;
+  --yamabuki-1: #B8830F;
+  --yamabuki-2: #D9A21B;
+  --yamabuki-3: #F0CB63;
+  --matsu-1: #245349;
+  --matsu-2: #2E6B5E;
+  --matsu-3: #5E9C8D;
+  --sakura-2: #D98C93;
+
+  /* --- Semantic surfaces --- */
+  --surface-page: var(--paper-1);
+  --surface-card: var(--paper-0);
+  --surface-sunken: var(--paper-2);
+  --surface-inverse: var(--kon-1);
+  --surface-accent: var(--yamabuki-2);
+  --surface-accent-soft: #F6E6BD;
+
+  /* --- Semantic text --- */
+  --text-body: var(--ink-1);
+  --text-strong: var(--ink-0);
+  --text-muted: var(--ink-2);
+  --text-faint: var(--ink-3);
+  --text-inverse: var(--paper-0);
+  --text-link: var(--shu-1);
+  --text-link-hover: var(--shu-2);
+  --text-accent: var(--yamabuki-1);
+
+  /* --- Semantic lines --- */
+  --border-hairline: #CFC3A8;
+  --border-strong: var(--ink-1);
+  --border-accent: var(--shu-2);
+  --rule-weight: 1px;
+  --rule-weight-strong: 2px;
+
+  /* --- Status --- */
+  --status-ok: var(--matsu-2);
+  --status-warn: var(--yamabuki-1);
+  --status-alert: var(--shu-2);
+  --status-info: var(--kon-3);
+
+  /* --- Print artefacts --- */
+  --halftone-dot: rgba(36, 31, 24, .18);
+  --grain-opacity: .05;
+
+  /* --- Type scale --- */
+  --text-3xs: 11px;
+  --text-2xs: 12px;
+  --text-xs: 13px;
+  --text-sm: 15px;
+  --text-md: 17px;
+  --text-lg: 20px;
+  --text-xl: 25px;
+  --text-2xl: 31px;
+  --text-3xl: 39px;
+  --text-4xl: 52px;
+  --text-5xl: 68px;
+  --text-6xl: 92px;
+
+  --leading-tight: 1.06;
+  --leading-snug: 1.24;
+  --leading-body: 1.62;
+  --leading-loose: 1.85;
+
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.06em;
+  --tracking-label: 0.22em;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+  --weight-black: 900;
+
+  --type-display: var(--weight-bold) var(--text-4xl)/var(--leading-tight) var(--font-display);
+  --type-title: var(--weight-bold) var(--text-2xl)/var(--leading-snug) var(--font-display);
+  --type-heading: var(--weight-bold) var(--text-lg)/var(--leading-snug) var(--font-sans);
+  --type-body: var(--weight-regular) var(--text-md)/var(--leading-body) var(--font-sans);
+  --type-small: var(--weight-regular) var(--text-sm)/var(--leading-body) var(--font-sans);
+  --type-label: var(--weight-regular) var(--text-2xs)/1.2 var(--font-dot);
+  --type-code: var(--weight-regular) var(--text-sm)/1.55 var(--font-mono);
+
+  /* --- Spacing --- */
+  --space-1: 2px;
+  --space-2: 4px;
+  --space-3: 6px;
+  --space-4: 10px;
+  --space-5: 14px;
+  --space-6: 18px;
+  --space-7: 24px;
+  --space-8: 32px;
+  --space-9: 44px;
+  --space-10: 60px;
+  --space-11: 84px;
+  --space-12: 120px;
+
+  --gutter: 24px;
+  --page-max: 1120px;
+  --page-pad-x: 28px;
+  --stack-tight: var(--space-4);
+  --stack: var(--space-7);
+  --stack-loose: var(--space-10);
+  --section-y: var(--space-11);
+
+  /* --- Shape --- */
+  --radius-0: 0px;
+  --radius-1: 2px;
+  --radius-2: 4px;
+  --radius-3: 8px;
+  --radius-4: 14px;
+  --radius-pill: 999px;
+
+  --radius-card: var(--radius-2);
+  --radius-control: var(--radius-2);
+  --radius-chip: var(--radius-pill);
+  --radius-media: var(--radius-1);
+
+  --shadow-offset: 3px 3px 0 var(--ink-1);
+  --shadow-offset-accent: 3px 3px 0 var(--shu-2);
+  --shadow-offset-sm: 2px 2px 0 var(--ink-1);
+  --shadow-raise: 0 1px 0 var(--paper-3), 0 2px 6px rgba(36, 31, 24, .10);
+  --shadow-inset-well: inset 0 1px 3px rgba(20, 18, 14, .16);
+  --shadow-none: none;
+
+  --border-card: var(--rule-weight-strong) solid var(--border-strong);
+  --border-soft: var(--rule-weight) solid var(--border-hairline);
+  --focus-ring: 0 0 0 2px var(--paper-0), 0 0 0 4px var(--kon-3);
+
+  /* --- Motion --- */
+  --dur-1: 90ms;
+  --dur-2: 160ms;
+  --dur-3: 260ms;
+  --dur-4: 420ms;
+  --ease-standard: cubic-bezier(.2, .7, .3, 1);
+  --ease-mech: cubic-bezier(.35, 0, .2, 1);
+  --ease-out-soft: cubic-bezier(0, .6, .35, 1);
+  --press-shift: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-1: 0ms;
+    --dur-2: 0ms;
+    --dur-3: 0ms;
+    --dur-4: 0ms;
+  }
+}

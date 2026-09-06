@@ -1,0 +1,14 @@
+/* Retints lightbox2 (lokeshdhakar.com/projects/lightbox2) to the Shōwa
+   Portfolio palette via its own documented custom properties — no rules
+   from lightbox.css are overridden directly, so library updates stay safe. */
+:root {
+  --lb-overlay-bg: var(--ink-1);
+  --lb-overlay-opacity: 0.85;
+  --lb-border-radius: var(--radius-2);
+  --lb-image-border-width: 4px;
+  --lb-image-border-color: var(--paper-0);
+  --lb-container-bg: var(--paper-0);
+  --lb-text-color: var(--paper-1);
+  --lb-caption-link-color: var(--yamabuki-3);
+  --lb-number-color: var(--paper-3);
+}

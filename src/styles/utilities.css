@@ -1,0 +1,14 @@
+/* Small set of copy utilities so section paragraphs don't need inline styles.
+   Combine a base with a measure (max-width) and, where needed, a tone/size modifier. */
+
+.u-copy {
+  font: var(--type-body);
+  margin: 0;
+}
+
+.u-copy--muted { color: var(--text-muted); }
+.u-copy--lg { font-size: var(--text-lg); }
+
+.u-measure-52 { max-width: 52ch; }
+.u-measure-58 { max-width: 58ch; }
+.u-measure-60 { max-width: 60ch; }
