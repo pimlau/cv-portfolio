@@ -7,7 +7,7 @@ export function renderAbout(): string {
   return `<section id="about" class="section--paper ds-grain">
     <div class="wrap split-about">
       <div class="stack">
-        ${mediaFrame({ ratio: "4 / 5", caption: i18next.t("about.photoCaption") })}
+        ${mediaFrame({ ratio: "4 / 5", caption: i18next.t("about.photoCaption"), src: "/img/profile.png" })}
       </div>
       <div class="stack">
         ${sectionHeader({

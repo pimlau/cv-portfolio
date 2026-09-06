@@ -20,15 +20,15 @@
     display: block;
     color: #000;
     font-family: var(--font-sans);
-    font-size: 9.5pt;
-    line-height: 1.35;
+    font-size: 9pt;
+    line-height: 1.24;
   }
 
   .pcv-header {
     display: grid;
     gap: 2pt;
-    padding-bottom: 8pt;
-    margin-bottom: 10pt;
+    padding-bottom: 6pt;
+    margin-bottom: 7pt;
     border-bottom: 1pt solid #000;
   }
   .pcv-name {
@@ -48,6 +48,22 @@
     color: #333;
   }
 
+  .pcv-about {
+    display: grid;
+    gap: 3pt;
+    padding-bottom: 7pt;
+    margin-bottom: 7pt;
+    border-bottom: 0.5pt solid #999;
+  }
+  .pcv-about__label {
+    font-size: 8pt;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #555;
+  }
+  .pcv-about__text { margin: 0; }
+  .pcv-about__text + .pcv-about__text { margin-top: 3pt; }
+
   .pcv-body {
     display: grid;
     grid-template-columns: 2.1fr 1fr;
@@ -57,11 +73,11 @@
 
   .pcv-timeline {
     display: grid;
-    gap: 8pt;
+    gap: 5pt;
   }
   .pcv-entry {
     break-inside: avoid;
-    padding-bottom: 8pt;
+    padding-bottom: 5pt;
     border-bottom: 0.5pt solid #999;
   }
   .pcv-timeline .pcv-entry:last-child { border-bottom: none; padding-bottom: 0; }
@@ -71,26 +87,26 @@
     align-items: baseline;
     gap: 8pt;
   }
-  .pcv-entry__title { font-weight: 700; font-size: 10.5pt; }
-  .pcv-entry__range { font-size: 8.5pt; color: #333; white-space: nowrap; }
-  .pcv-entry__location { display: block; font-size: 8.5pt; color: #555; font-style: italic; }
-  .pcv-entry__desc { margin: 3pt 0 0; }
-  .pcv-entry__skills { margin: 3pt 0 0; font-size: 8.5pt; color: #333; }
+  .pcv-entry__title { font-weight: 700; font-size: 10pt; }
+  .pcv-entry__range { font-size: 8pt; color: #333; white-space: nowrap; }
+  .pcv-entry__location { display: block; font-size: 8pt; color: #555; font-style: italic; }
+  .pcv-entry__desc { margin: 2pt 0 0; }
+  .pcv-entry__skills { margin: 2pt 0 0; font-size: 8pt; color: #333; }
 
   .pcv-sidebar {
     display: grid;
-    gap: 8pt;
+    gap: 6pt;
     align-content: start;
     padding-left: 14pt;
     border-left: 0.5pt solid #999;
   }
   .pcv-sidebar__label {
-    font-size: 8.5pt;
+    font-size: 8pt;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #555;
   }
   .pcv-group { break-inside: avoid; }
-  .pcv-group__title { display: block; font-weight: 700; font-size: 9.5pt; }
-  .pcv-group__text { margin: 2pt 0 0; font-size: 8.5pt; color: #333; }
+  .pcv-group__title { display: block; font-weight: 700; font-size: 9pt; }
+  .pcv-group__text { margin: 2pt 0 0; font-size: 8pt; color: #333; }
 }

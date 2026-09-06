@@ -18,7 +18,7 @@
     "eyebrow": "01 — about",
     "title": "Laura Pimiä",
     "meta": "front end · ux · graphic design — 2014 / 2026",
-    "photoCaption": "A photo of me goes here.",
+    "photoCaption": "Enjoying a funny little drink in Harajuku, Tokyo.",
     "lead": "I'm a design engineer based in Helsinki. I started my career in 2014 as a web developer working with PHP and Javascript, Angular v1 and jQuery, ended up settling with React and any side dish brought to the table.",
     "paragraph1": "I sit between design and front end. In my work that means I am the connecting cable between design and development, and I am the person who picks up the slack when the design team needs to focus on more burning things. I'm a big design systems advocate for this reason.",
     "paragraph2": "Outside work I am a freelance graphic designer with experience in print and apparel design. I also play Dungeons and Dragons actively and travel to Japan annually. And I won't shut up about it.",
@@ -28,8 +28,8 @@
   "work": {
     "eyebrow": "02 — professional",
     "title": "Client work",
-    "intro": "I work as a senior consultant in the Design Engineers tribe at Siili Solutions. Clients have been both public sector and commercial, and I pride myself upon my ability to learn and adapt to new business domains quickly. Below you can find my most recent client projects from the last 5 years. If you want to hear more about my older work, just hit me up!",
-    "skills": ["React.js", "TypeScript", "Javascript", "Design Systems", "SCSS", "REST APIs", "GraphQL", "Cypress", "Tanstack query", "Nx", "Agentic development"],
+    "intro": "I work as a senior consultant in the Design Engineers tribe at Siili Solutions and I've been here since 2021 putting my spoon in many project pies. In total my career as a consultant has lasted 10 years by now, so I've gathered quite a lot of mileage from different industries. Clients have been both public sector and commercial, and I pride myself upon my ability to learn and adapt to new business domains quickly and getting to know people as fast as possible. Below you can find my most recent client projects from the last 5 years. If you want to hear more about my older work, just hit me up!",
+   "skills": ["React.js", "TypeScript", "Javascript", "Design Systems", "SCSS", "REST APIs", "GraphQL", "Cypress", "Tanstack query", "Nx", "Agentic development"],
     "timeline": {
       "dateRange": "2021 / now",
       "roleTitle": "Senior consultant, Siili Solutions",
@@ -184,6 +184,13 @@
   "cv": {
     "eyebrow": "05 — curriculum vitae",
     "title": "Where I've been",
+    "about": {
+      "label": "Summary",
+      "paragraphs": [
+        "10+ years of developing, Typescript, React, SCSS tied together with a UX bow, aided with the appropriate use of AI models and figuring out their possibilities, fullstacking when necessary. Always willing to expand my skillset and stay curious about the world around me whether it's a new business domain, technology or the people inhabiting it. Seen a lot over the years!",
+        "I have a background in developing and programming interfaces for projects for various industries with a wide array of users. User experience and service design are my biggest passions, something I truly do feel a calling for. I consider creating user interfaces artistry not only due to pretty pictures and colors, but also due to an intuitive experience and availability for all kinds of users to remove the friction between them and technology. I want to understand the product's purpose as thoroughly as possible."
+      ]
+    },
     "entries": [
       {
         "range": "Mar 2021 — present",
