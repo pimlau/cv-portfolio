@@ -35,6 +35,7 @@ function skillsGroup({ title, text }: PrintSkillGroup): string {
 export function renderPrintCv(): string {
   const entries = i18next.t("cv.entries", { returnObjects: true }) as PrintCvEntry[];
   const groups = i18next.t("cv.sidebar.groups", { returnObjects: true }) as PrintSkillGroup[];
+  const aboutParagraphs = i18next.t("cv.about.paragraphs", { returnObjects: true }) as string[];
 
   const email = i18next.t("contact.email");
   const linkedin = i18next.t("contact.rows.linkedin");
@@ -45,6 +46,10 @@ export function renderPrintCv(): string {
       <span class="pcv-role">${i18next.t("nav.role")}</span>
       <span class="pcv-contact">${email} · ${linkedin}</span>
     </header>
+    <div class="pcv-about">
+      <span class="pcv-about__label">${i18next.t("cv.about.label")}</span>
+      ${aboutParagraphs.map((paragraph) => `<p class="pcv-about__text">${paragraph}</p>`).join("")}
+    </div>
     <div class="pcv-body">
       <div class="pcv-timeline">${entries.map(entry).join("")}</div>
       <div class="pcv-sidebar">
