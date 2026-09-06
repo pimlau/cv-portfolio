@@ -1,4 +1,6 @@
 name: CI
+# Test change (test/ci-pipeline branch): confirming this workflow runs on a real PR.
+# Safe to ignore/remove once verified.
 
 on:
   pull_request:
