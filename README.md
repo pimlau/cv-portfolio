@@ -18,7 +18,7 @@ A personal portfolio site (Shōwa-era Japanese retro character, front end / desi
 
 ```
 src/
-  components/   Button, Tag, MediaFrame, SectionHeader, ProjectCard, Marquee, Header, Footer
+  components/   Button, Tag, MediaFrame, SectionHeader, ProjectCard, GalleryCard, Header, Footer
   sections/     About, Work, Graphics, Hobby, CV — one file per page section
   i18n/         i18next setup + locales/en.json (all copy)
   styles/       tokens.css, base.css, layout.css, components.css

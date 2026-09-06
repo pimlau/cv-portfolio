@@ -2,7 +2,6 @@ import i18next from "i18next";
 import { initI18n } from "./i18n";
 import { renderHeader, initNavScrollSpy, initExportCv } from "./components/header";
 import { renderFooter } from "./components/footer";
-import { marquee } from "./components/marquee";
 import { renderAbout } from "./sections/about";
 import { renderWork } from "./sections/work";
 import { renderGraphics } from "./sections/graphics";
@@ -32,14 +31,11 @@ async function render(): Promise<void> {
   const app = document.querySelector<HTMLDivElement>("#app");
   if (!app) return;
 
-  const tickerItems = i18next.t("ticker.items", { returnObjects: true }) as string[];
-
   app.innerHTML = `
     <div class="page">
       ${renderHeader()}
       <main>
         ${renderAbout()}
-        ${marquee({ items: tickerItems })}
         ${renderWork()}
         ${renderGraphics()}
         ${renderHobby()}
