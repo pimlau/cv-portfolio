@@ -1,0 +1,96 @@
+/* Printable CV — a self-contained, ink-economical layout, independent of
+   the on-screen Showa styling. On screen the whole block stays display:none;
+   only @media print flips it (and only it) into view. */
+
+.print-cv { display: none; }
+
+@media print {
+  @page {
+    size: A4;
+    margin: 16mm 14mm;
+  }
+
+  html, body { background: #fff; }
+
+  /* Hide the whole live site — only the print CV renders. */
+  .page > *:not(.print-cv) { display: none !important; }
+  .lightboxOverlay, .lightbox { display: none !important; }
+
+  .print-cv {
+    display: block;
+    color: #000;
+    font-family: var(--font-sans);
+    font-size: 9.5pt;
+    line-height: 1.35;
+  }
+
+  .pcv-header {
+    display: grid;
+    gap: 2pt;
+    padding-bottom: 8pt;
+    margin-bottom: 10pt;
+    border-bottom: 1pt solid #000;
+  }
+  .pcv-name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 20pt;
+    margin: 0;
+  }
+  .pcv-role {
+    font-size: 9.5pt;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #333;
+  }
+  .pcv-contact {
+    font-size: 9pt;
+    color: #333;
+  }
+
+  .pcv-body {
+    display: grid;
+    grid-template-columns: 2.1fr 1fr;
+    gap: 16pt;
+    align-items: start;
+  }
+
+  .pcv-timeline {
+    display: grid;
+    gap: 8pt;
+  }
+  .pcv-entry {
+    break-inside: avoid;
+    padding-bottom: 8pt;
+    border-bottom: 0.5pt solid #999;
+  }
+  .pcv-timeline .pcv-entry:last-child { border-bottom: none; padding-bottom: 0; }
+  .pcv-entry__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8pt;
+  }
+  .pcv-entry__title { font-weight: 700; font-size: 10.5pt; }
+  .pcv-entry__range { font-size: 8.5pt; color: #333; white-space: nowrap; }
+  .pcv-entry__location { display: block; font-size: 8.5pt; color: #555; font-style: italic; }
+  .pcv-entry__desc { margin: 3pt 0 0; }
+  .pcv-entry__skills { margin: 3pt 0 0; font-size: 8.5pt; color: #333; }
+
+  .pcv-sidebar {
+    display: grid;
+    gap: 8pt;
+    align-content: start;
+    padding-left: 14pt;
+    border-left: 0.5pt solid #999;
+  }
+  .pcv-sidebar__label {
+    font-size: 8.5pt;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #555;
+  }
+  .pcv-group { break-inside: avoid; }
+  .pcv-group__title { display: block; font-weight: 700; font-size: 9.5pt; }
+  .pcv-group__text { margin: 2pt 0 0; font-size: 8.5pt; color: #333; }
+}

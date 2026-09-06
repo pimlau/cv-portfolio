@@ -1,4 +1,5 @@
 import i18next from "i18next";
+import { icon } from "./icon";
 
 const NAV_SECTIONS = ["work", "graphics", "hobby", "cv", "about", "contact"] as const;
 
@@ -13,6 +14,9 @@ export function renderHeader(): string {
       <span class="ds-label site-header__role">${i18next.t("nav.role")}</span>
     </div>
     <nav class="site-nav">${links}</nav>
+    <button type="button" id="export-cv" class="btn btn--ghost btn--md">
+      <span>${i18next.t("nav.exportCv")}</span>${icon("download", "btn__icon")}
+    </button>
   </header>`;
 }
 
@@ -43,4 +47,22 @@ export function initNavScrollSpy(root: ParentNode = document): void {
   );
   sections.forEach((section) => observer.observe(section));
   setActive(sections[0].id);
+}
+
+export function initExportCv(root: ParentNode = document): void {
+  const button = root.querySelector<HTMLButtonElement>("#export-cv");
+  if (!button) return;
+
+  button.addEventListener("click", () => {
+    const previousTitle = document.title;
+    document.title = `${i18next.t("nav.name")} — CV`;
+
+    const restoreTitle = () => {
+      document.title = previousTitle;
+      window.removeEventListener("afterprint", restoreTitle);
+    };
+    window.addEventListener("afterprint", restoreTitle);
+
+    window.print();
+  });
 }

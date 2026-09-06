@@ -11,7 +11,8 @@
     "hobby": "Hobby",
     "cv": "CV",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "exportCv": "Export CV"
   },
   "ticker": {
     "items": [
