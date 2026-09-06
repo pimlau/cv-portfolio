@@ -65,7 +65,7 @@
         "title": "A data visualization dashboard for a private company",
         "role": "Senior front end developer",
         "year": "Q2 2024 - Q4 2024",
-        "summary": "A B2B user-facing service for a private company to visualize data from their backend systems in a readable and efficient way. I took part in improving their design system process and component library implementation, and ",
+        "summary": "A B2B user-facing service for a private company to visualize data from their backend systems in a readable and efficient way. Besides my main project where I constructed a data visualization dashboard, I took part in improving their design system process and component library implementation.",
         "tags": ["React.js", "Design systems", "Typescript", "SCSS", "Next.js", "SSR"],
         "image": "/img/website-3.png",    
         "disableLightbox": true
@@ -105,7 +105,7 @@
   "graphics": {
     "eyebrow": "03 — graphic design",
     "title": "Illustrations and graphic design",
-    "intro": "I'm the principal designer for a Finnish convention centered around Japanese pop culture hosting 3000 visitors biannually in both June and January. My work spans across 16 years at this point, but here are some of the more recent works. If you're wondering about the seals... that's what we affectionally call the volunteers and use as our recognizable iconography as the marine theme also fits with our venue being located right by the Vesijärvi lake. Seals are so dear to us we have also arranged a sizable donation to the Saimaa ringed seal conservation work in 2025. Out of principle, this section I keep completely free of generative AI.",
+    "intro": "I'm the principal designer for a Finnish convention centered around Japanese pop culture hosting 3000 visitors biannually in both June and January. My work spans across 16 years at this point, but here are some of the more recent works. If you're wondering about the seals... that's what we affectionally call the volunteers and use as our recognizable iconography as the marine theme also fits with our venue being located right by the Vesijärvi lake. Seals are so dear to us we have also arranged a sizable donation to the Saimaa ringed seal conservation work in 2026. Out of principle, I do not use generative AI for my illustrations at all.",
     "projects": [
       {
         "index": "01",
