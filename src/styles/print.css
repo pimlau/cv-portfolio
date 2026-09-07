@@ -109,4 +109,25 @@
   .pcv-group { break-inside: avoid; }
   .pcv-group__title { display: block; font-weight: 700; font-size: 9pt; }
   .pcv-group__text { margin: 2pt 0 0; font-size: 8pt; color: #333; }
+
+  .pcv-education {
+    break-inside: avoid;
+    margin-top: 8pt;
+    padding-top: 7pt;
+    border-top: 0.5pt solid #999;
+  }
+  .pcv-education__label {
+    display: block;
+    margin-bottom: 3pt;
+    font-size: 8pt;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #555;
+  }
+  .pcv-education .pcv-education__range {
+    display: block;
+    margin-top: 2pt;
+    font-size: 8pt;
+    color: #555;
+  }
 }

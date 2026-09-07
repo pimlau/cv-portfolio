@@ -13,6 +13,14 @@ interface PrintSkillGroup {
   text: string;
 }
 
+interface PrintEducation {
+  label: string;
+  institution: string;
+  degree: string;
+  range: string;
+  focus: string;
+}
+
 function entry({ range, title, location, description, skills }: PrintCvEntry): string {
   return `<article class="pcv-entry">
     <div class="pcv-entry__head">
@@ -32,10 +40,22 @@ function skillsGroup({ title, text }: PrintSkillGroup): string {
   </div>`;
 }
 
+function education({ label, institution, degree, range, focus }: PrintEducation): string {
+  return `<div class="pcv-education">
+    <span class="pcv-education__label">${label}</span>
+    <div class="pcv-group">
+      <span class="pcv-group__title">${institution}</span>
+      <p class="pcv-group__text">${degree} — ${focus}</p>
+      <span class="pcv-education__range">${range}</span>
+    </div>
+  </div>`;
+}
+
 export function renderPrintCv(): string {
   const entries = i18next.t("cv.entries", { returnObjects: true }) as PrintCvEntry[];
   const groups = i18next.t("cv.sidebar.groups", { returnObjects: true }) as PrintSkillGroup[];
   const aboutParagraphs = i18next.t("cv.about.paragraphs", { returnObjects: true }) as string[];
+  const educationData = i18next.t("cv.education", { returnObjects: true }) as PrintEducation;
 
   const email = i18next.t("contact.email");
   const linkedin = i18next.t("contact.rows.linkedin");
@@ -55,6 +75,7 @@ export function renderPrintCv(): string {
       <div class="pcv-sidebar">
         <span class="pcv-sidebar__label">${i18next.t("cv.sidebar.label")}</span>
         ${groups.map(skillsGroup).join("")}
+        ${education(educationData)}
       </div>
     </div>
   </section>`;

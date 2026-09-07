@@ -252,6 +252,13 @@
           "text": "I consider myself a creative person first and a programmer second. I'm always looking for new ways to express myself and I'm eager to see where my ideas take me, and that includes service design and planning how the user interfaces with the design."
         }
       ]
+    },
+    "education": {
+      "label": "Education",
+      "institution": "Haaga-Helia University of Applied Sciences",
+      "degree": "Bachelor of Business Administration (B.B.A.), Information Technology",
+      "range": "2012–2016",
+      "focus": "Software development and design"
     }
   },
   "contact": {

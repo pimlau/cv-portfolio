@@ -272,3 +272,9 @@
   color: var(--paper-0);
 }
 .gallery-thumb--static { cursor: default; }
+
+/* --- CV education panel --- */
+.cv-education {
+  display: grid;
+  gap: var(--space-4);
+}
