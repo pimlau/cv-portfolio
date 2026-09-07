@@ -1,7 +1,7 @@
 import i18next from "i18next";
 import { icon } from "./icon";
 
-const NAV_SECTIONS = ["work", "graphics", "hobby", "cv", "about", "contact"] as const;
+const NAV_SECTIONS = ["about", "work", "graphics", "hobby", "cv", "contact"] as const;
 
 export function renderHeader(): string {
   const links = NAV_SECTIONS.map(
