@@ -58,13 +58,13 @@ export function renderPrintCv(): string {
   const educationData = i18next.t("cv.education", { returnObjects: true }) as PrintEducation;
 
   const email = i18next.t("contact.email");
-  const linkedin = i18next.t("contact.rows.linkedin");
+  const linkedinUrl = i18next.t("contact.rows.linkedinUrl");
 
   return `<section id="print-cv" class="print-cv">
     <header class="pcv-header">
       <h1 class="pcv-name">${i18next.t("nav.name")}</h1>
       <span class="pcv-role">${i18next.t("nav.role")}</span>
-      <span class="pcv-contact">${email} · ${linkedin}</span>
+      <span class="pcv-contact">${email} · ${linkedinUrl}</span>
     </header>
     <div class="pcv-about">
       <span class="pcv-about__label">${i18next.t("cv.about.label")}</span>
