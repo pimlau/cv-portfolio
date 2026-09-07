@@ -33,7 +33,7 @@
     "timeline": {
       "dateRange": "2021 / now",
       "roleTitle": "Senior consultant, Siili Solutions",
-      "meta": "Full-time · Helsinki, Uusimaa · Design Engineers tribe",
+      "meta": "Full-time · Helsinki · Design Engineers tribe",
       "publicLabel": "public",
       "publicText": "Public sector front ends: accessible React applications built to survive long service lifecycles and multiple content teams.",
       "commercialLabel": "commercial",
@@ -195,42 +195,42 @@
       {
         "range": "Mar 2021 — present",
         "title": "Senior Consultant — Siili Solutions",
-        "location": "Full-time · Helsinki, Uusimaa, Finland",
+        "location": "Helsinki, Finland",
         "description": "Part of the Design Engineers tribe. Acting as a senior level developer in projects requiring advanced knowledge of front end ecosystems and user experience design. Projects have included both public sector and commercial clients. React.js, Typescript, SCSS and both REST and GraphQL based interfaces. Design System work. Various component libraries such as Bootstrap, MaterialUI, Ant Design and more. Plenty of form developing war stories. Picking up various genAI tools to better my work as we speak.",
         "skills": ["Front end development", "Web design", "React.js", "TypeScript", "Javascript", "SCSS", "REST APIs", "GraphQL", "Design Systems", "Component libraries", "GenAI tools"]
       },
       {
         "range": "Sep 2016 — Mar 2021",
         "title": "Consultant — Netlight",
-        "location": "Helsinki, Uusimaa, Finland",
+        "location": "Helsinki, Finland",
         "description": "I specialized in Front end/web development and user experience design, using pure javascript, typescript, React.js and other various front-end development technologies to create and improve user interfaces. Projects involved embedded systems, MaaS interfaces, user-targeted tools for financial industries and e-commerce.",
         "skills": ["Front end development", "Web design", "React.js", "TypeScript", "Javascript", "SCSS", "REST APIs", "GraphQL", "Design Systems", "Component libraries"]
       },
       {
         "range": "Oct 2015 — Jun 2016",
         "title": "Front end developer — Great Apes",
-        "location": "Helsinki",
+        "location": "Helsinki, Finland",
         "description": "Various Front End oriented projects for the web. Websites, applications, even games. Javascript, SASS, CSS, Canvas, PHP, Wordpress.",
         "skills": ["Web design", "Front end design", "Javascript", "SASS", "CSS", "Canvas", "PHP", "Wordpress"]
       },
       {
         "range": "Mar 2015 — Aug 2015",
         "title": "IT Assistant — Verohallinto, Finnish Tax Administration",
-        "location": "Helsinki",
+        "location": "Helsinki, Finland",
         "description": "A temporary position for the IT side of the tax inspection in a project while finishing my studies. Using data extraction tools, handful script creation for the good of the nation and taking part in the planning strategies and helping out with anything that requires IT-related knowledge.",
         "skills": ["HTML", "Javascript", "Excel sheets", "Data ingestion and collection"]
       },
       {
         "range": "May 2014 — Aug 2014",
         "title": "Inspector general — Verohallinto",
-        "location": "Helsinki",
+        "location": "Helsinki, Finland",
         "description": "A summer internship job at Verohallinto. Testing, documenting, creating education material and using software meant for the tax administration employees. Database organizing. My position required a good knowledge of the architecture and behavior of web sites.",
         "skills": ["HTML", "Javascript", "Excel sheets", "Data ingestion and collection"]
       },
       {
         "range": "Jan 2014 — Apr 2014",
         "title": "Web Developer — Givget Oy",
-        "location": "Helsinki",
+        "location": "Helsinki, Finland",
         "description": "Creating campaign sites with participating forms and other features using HTML, Javascript, CSS and PHP. Development of CMS services and a social media site and other IT related tasks of the company.",
         "skills": ["Web design", "Front end design", "HTML", "Javascript", "CSS", "PHP"]
       }
