@@ -177,7 +177,8 @@
         "role": "Solo designer and developer",
         "year": "2026",
         "summary": "Satchel UI is the component kit I'm using to develop my DMScreen project, but also the follow-up projects to it. The plan is to create a monorepo ecosystem powered by Nx to host also a player-centered campaign management tool.",
-        "tags": ["Front end development", "UX Design", "React.js", "Figma", "Figma MCP"]
+        "tags": ["Front end development", "UX Design", "React.js", "Figma", "Figma MCP"],
+        "image": "/img/satchel-ui.PNG"
       }
     ]
   },
