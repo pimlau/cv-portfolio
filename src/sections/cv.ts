@@ -15,6 +15,14 @@ interface SkillGroup {
   text: string;
 }
 
+interface Education {
+  label: string;
+  institution: string;
+  degree: string;
+  range: string;
+  focus: string;
+}
+
 function entry({ range, title, location, description, skills }: CvEntry): string {
   return `<div class="cv-entry">
     <span class="ds-label cv-entry__range">${range}</span>
@@ -32,9 +40,25 @@ function skillsGroup({ title, text }: SkillGroup): string {
   </div>`;
 }
 
+function educationPanel({ label, institution, degree, range, focus }: Education): string {
+  return `<div class="cv-education">
+    <span class="ds-label">${label}</span>
+    <div class="panel">
+      <div class="panel__row">
+        <span class="ds-label panel__row-label">${range}</span>
+        <div class="panel__row-body">
+          <span class="panel__row-title">${institution}</span>
+          <span class="panel__row-meta">${degree} — ${focus}</span>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
 export function renderCv(): string {
   const entries = i18next.t("cv.entries", { returnObjects: true }) as CvEntry[];
   const groups = i18next.t("cv.sidebar.groups", { returnObjects: true }) as SkillGroup[];
+  const education = i18next.t("cv.education", { returnObjects: true }) as Education;
 
   return `<section id="cv" class="wrap section-grid">
     ${sectionHeader({ eyebrow: i18next.t("cv.eyebrow"), title: i18next.t("cv.title") })}
@@ -45,5 +69,6 @@ export function renderCv(): string {
           ${groups.map(skillsGroup).join(" ")}
       </div>
     </div>
+    ${educationPanel(education)}
   </section>`;
 }
